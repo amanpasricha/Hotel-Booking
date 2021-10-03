@@ -1,0 +1,46 @@
+body {
+    background-image: url('../../images/banner/bradcam.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    color: #ffbb2b;
+}
+
+#click_here {
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+/*
+.well {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+   
+}
+*/
+
+.container
+{
+    width: 60%;
+}
+
+label
+{
+    color:#ffbb2b;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.button
+{
+    
+    width: 100px;
+    float: right;
+    font-size: 13px;
+    
+}

@@ -8,15 +8,15 @@ https://hotel-booking-systems.000webhostapp.com/
 
 ## Screenshots
 
-![App Screenshot](/Screenshots/1.png?raw=true)
-![App Screenshot](/Screenshots/2.png?raw=true)
-![App Screenshot](/Screenshots/3.png?raw=true)
-![App Screenshot](/Screenshots/4.png?raw=true)
-![App Screenshot](/Screenshots/5.png?raw=true)
-![App Screenshot](/Screenshots/6.png?raw=true)
-![App Screenshot](/Screenshots/7.png?raw=true)
-![App Screenshot](/Screenshots/8.png?raw=true)
-![App Screenshot](/Screenshots/9.png?raw=true)
+![App Screenshot](/screenshots/1.png?raw=true)
+![App Screenshot](/screenshots/2.png?raw=true)
+![App Screenshot](/screenshots/3.png?raw=true)
+![App Screenshot](/screenshots/4.png?raw=true)
+![App Screenshot](/screenshots/5.png?raw=true)
+![App Screenshot](/screenshots/6.png?raw=true)
+![App Screenshot](/screenshots/7.png?raw=true)
+![App Screenshot](/screenshots/8.png?raw=true)
+![App Screenshot](/screenshots/9.png?raw=true)
   
 ## Run Locally
 

@@ -18,7 +18,7 @@ body {
 	font-weight: normal;
 	font-style: normal;
 	overflow-x: hidden;
-	width: 109%;
+	width: 100%;
 }
 
 .flex-center {
@@ -607,7 +607,7 @@ h3 {
 
 @media (max-width: 767px) {
 	.header-area .main-header-area {
-		padding: 10px 12px;
+		padding: 11px 45px;
 	}
 }
 

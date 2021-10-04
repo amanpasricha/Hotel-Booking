@@ -2,13 +2,38 @@
     <div class="header-area ">
         <div id="sticky-header" class="main-header-area">
             <div class="main-menu col-xl-5 col-lg-5">
-                <nav>
+                <nav class="mheader">
                     <ul id="navigation" style="text-align:left; ">
                         <li class="active"><a href="index.php" target="_blank">Home</a></li>
                         <li><a href="room.php" target="_blank">Room &amp; Facilities</a></li>
                         <li><a href="reservation.php?room_category_id=101" target="_blank">Online Reservation</a></li>
                         <li><a href="admin.php" target="_blank">Admin</a></li>
                     </ul>
+                    </nav>
+                    <ul class="nav-menu mobile">
+                <button class="burger">
+                    <span></span>
+                </button>
+            </ul>
+        
+        <nav class="mobile">
+            <ul class="mobile-menu">
+                <li class="mobile-nav-item active">
+                    <a href="" class="mobile-nav-link">Home</a>
+                </li>
+
+                <li class="mobile-nav-item">
+                    <a href="" class="mobile-nav-link">Room &amp; Facilities</a>
+                </li>
+
+                <li class="mobile-nav-item">
+                    <a href="" class="mobile-nav-link">Online Reservation</a>
+                </li>
+
+                <li class="mobile-nav-item">
+                    <a href="" class="mobile-nav-link">Admin</a>
+                </li>
+            </ul>
                 </nav>
             </div>
 

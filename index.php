@@ -17,6 +17,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+   
     
 </head>
 
@@ -131,6 +132,7 @@
 </body>
 
 <script src="my_js/slide.js"></script>
+<script src="./my_js/header.js" defer></script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->

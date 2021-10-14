@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900&display=swap");
+
 .flex-center-start {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -17,6 +18,7 @@ body {
 	font-weight: normal;
 	font-style: normal;
 	overflow-x: hidden;
+	width: 100%;
 }
 
 .flex-center {
@@ -605,7 +607,7 @@ h3 {
 
 @media (max-width: 767px) {
 	.header-area .main-header-area {
-		padding: 10px 12px;
+		padding: 11px 45px;
 	}
 }
 
@@ -4733,3 +4735,177 @@ h6 {
 	margin-right: 10px;
 	font-size: 12px
 }
+@media only screen and (min-width: 730px) and (max-width: 1200px) {
+	.book_btn {
+		margin: -63px 22px 43px 16px !important;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 760px) {
+	.mheader {
+		display: none;
+	}
+	.book_btn {
+		margin: -4vh 0px 5px -142px !important;
+	}
+	.logo-img{
+		display: none;
+	}
+}
+@media (width:760px){
+	.book_btn {
+		margin: -2vh 0px 5px -142px !important;
+	}
+}
+@media only screen and (min-width: 760px) and (max-width: 2000px) {
+	.mobile {
+		display: none;
+	}
+	
+}
+/* header responsiveness mobile */
+/* Nav & Nav Items */
+@media only screen and (min-width: 320px) and (max-width: 760px){
+
+nav{
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 1000;
+	
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: inherit;
+	float: left;
+}
+
+.nav-item{
+    display: inline-block;
+    /* margin: 0 .2rem; */
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    display: inline-block;
+    padding: .8rem 1rem;
+    color: #eee;
+    opacity: .7;
+    text-transform: capitalize;
+    font-size: .9rem;
+    transition: all .5s;
+    font-weight: 400;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-item.active .nav-link{
+    opacity: 1;
+    background-color: #FD4D26;
+}
+
+
+/* Burger Button */
+
+.burger{
+    display: inline-block;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+}
+
+.burger::after{
+    content: "";
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: #fff;
+    transition: transform .5s;
+}
+
+.burger::before{
+    content: "";
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: #fff;
+    transition: transform .5s;
+}
+
+.burger > span{
+    display: block;
+    width: 28px;
+    margin: .4rem 0;
+    height: 3px;
+    background-color: #fff;
+    transition: opacity .5s;
+}
+
+/* Burger On Toggle */
+.burger.change span{
+    opacity: 0;
+    margin: 0;
+}
+
+.burger.change::after{
+    transform: rotate(45deg);
+}
+
+.burger.change::before{
+    transform: rotate(-45deg) translateY(4px) translateX(-4px);
+}
+
+
+/* Mobile Menu */
+.mobile-menu{
+    display: block;
+    position: absolute;
+    top: 100%;
+    z-index: 50;
+    left: 0;
+    width: 100%;
+    padding: 3rem 0;
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: all .5s;
+    pointer-events: none;
+}
+
+.mobile-nav-item{
+    display: block;
+    width: 100%;
+}
+
+.mobile-nav-link{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    opacity: .7;
+    color: #eee;
+    font-size: .9rem;
+    text-transform: capitalize;
+    padding: .6rem 1rem;
+    transition: all .5s;
+}
+
+.mobile-nav-link:hover,
+.mobile-nav-link:focus,
+.mobile-nav-item.active .mobile-nav-link{
+    opacity: 1;
+    background-color: black;
+}
+
+.mobile-menu.show{
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: all;
+}
+}
+/* End header responsiveness mobile */

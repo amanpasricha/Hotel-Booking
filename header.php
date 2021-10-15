@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="css/style.css">
 <header>
     <div class="header-area ">
         <div id="sticky-header" class="main-header-area">
@@ -19,19 +20,19 @@
         <nav class="mobile">
             <ul class="mobile-menu">
                 <li class="mobile-nav-item active">
-                    <a href="" class="mobile-nav-link">Home</a>
+                    <a href="index.php" target="_blank" class="mobile-nav-link">Home</a>
                 </li>
 
                 <li class="mobile-nav-item">
-                    <a href="" class="mobile-nav-link">Room &amp; Facilities</a>
+                    <a href="room.php" target="_blank" class="mobile-nav-link">Room &amp; Facilities</a>
                 </li>
 
                 <li class="mobile-nav-item">
-                    <a href="" class="mobile-nav-link">Online Reservation</a>
+                    <a href="reservation.php?room_category_id=101" target="_blank" class="mobile-nav-link">Online Reservation</a>
                 </li>
 
                 <li class="mobile-nav-item">
-                    <a href="" class="mobile-nav-link">Admin</a>
+                    <a href="admin.php" target="_blank" class="mobile-nav-link">Admin</a>
                 </li>
             </ul>
                 </nav>
@@ -55,3 +56,4 @@
         </div>
     </div>
 </header>
+<script src="./my_js/header.js" defer></script>

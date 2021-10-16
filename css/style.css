@@ -4745,10 +4745,63 @@ h6 {
 		display: none;
 	}
 	.book_btn {
-		margin: -4vh 0px 5px -142px !important;
+		margin: 1vh 4px 5px -142px !important;
 	}
-	.logo-img{
-		display: none;
+}
+@media only screen and (min-width: 650px) and (max-width: 760px){
+	.logo-img {
+		margin: -3rem 17rem;
+	}
+}
+@media only screen and (min-width: 450px) and (max-width: 500px){
+	.logo-img {
+		margin-left: 66px;
+		margin-top: -29px;
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 370px){
+	.book_btn {
+		position: relative;
+		top: 38vh;
+		right: 8vw;	
+	}
+	.logo-img {
+		margin: -28px 46px;
+	}
+}
+@media only screen and (min-width: 370px) and (max-width: 400px){
+	.book_btn {
+	    position: relative;
+    	top: 1vh;
+    	right: -13vw;
+	}
+	.logo-img {
+		margin: -28px 46px;
+	}
+}
+@media only screen and (min-width: 400px) and (max-width: 450px){
+	.book_btn {
+		position: relative;
+		top: 1vh;
+		right: -5vw;
+	}
+	.logo-img {
+			margin: -5vh 12vw;
+	}
+}
+@media only screen and (min-width: 450px) and (max-width: 500px){
+	.book_btn {
+		position: relative;
+		top: 1vh;
+		right: -9vw;
+	}
+	.logo-img {
+			margin: -5vh 19vw;
+	}
+}
+@media only screen and (min-width: 500px) and (max-width: 650px){
+	.logo-img {
+		margin: -3rem 13rem;
 	}
 }
 @media (width:760px){

@@ -38,7 +38,7 @@
                 </nav>
             </div>
 
-            <div class="col-xl-2 col-lg-2">
+            <div class="col-xl-2 col-lg-2 logodiv">
                 <div class="logo-img">
                     <a href="index.php">
                         <img src="/Hotel Booking/images/logo.png" alt="Hotel Booking">

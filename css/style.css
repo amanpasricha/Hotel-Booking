@@ -4735,9 +4735,18 @@ h6 {
 	margin-right: 10px;
 	font-size: 12px
 }
-@media only screen and (min-width: 730px) and (max-width: 1200px) {
+@media only screen and (min-width: 730px) and (max-width: 991px) {
 	.book_btn {
 		margin: -63px 22px 43px 16px !important;
+	}
+}
+@media only screen and (min-width: 991px) and (max-width: 1199px) {
+	.logo-img {
+		width: 13%;
+		margin: -4rem 59rem;
+	}
+	.book_btn {
+		margin: 19px 22px 43px 16px !important;
 	}
 }
 @media only screen and (min-width: 320px) and (max-width: 760px) {
@@ -4750,7 +4759,13 @@ h6 {
 }
 @media only screen and (min-width: 650px) and (max-width: 760px){
 	.logo-img {
-		margin: -3rem 17rem;
+		position: fixed;
+		left: 32vw;
+		top: 5vh;
+	}
+	.book_btn {
+		position: relative;
+		top: -5vh;
 	}
 }
 @media only screen and (min-width: 450px) and (max-width: 500px){
@@ -4762,51 +4777,71 @@ h6 {
 @media only screen and (min-width: 320px) and (max-width: 370px){
 	.book_btn {
 		position: relative;
-		top: 38vh;
-		right: 8vw;	
+		top: 28vh;
+		right: 15vw;
 	}
-	.logo-img {
-		margin: -28px 46px;
+	.logodiv {
+		position: fixed;
+		left: 32vw;
+		top: 4vh;
 	}
 }
 @media only screen and (min-width: 370px) and (max-width: 400px){
 	.book_btn {
 	    position: relative;
-    	top: 1vh;
+    	top: -6vh;
     	right: -13vw;
 	}
 	.logo-img {
-		margin: -28px 46px;
+		position: fixed;
+		right: 43vw;
+		top: 4vh;
 	}
 }
 @media only screen and (min-width: 400px) and (max-width: 450px){
 	.book_btn {
 		position: relative;
-		top: 1vh;
-		right: -5vw;
+		top: -6vh;
+		right: -12vw;
 	}
 	.logo-img {
-			margin: -5vh 12vw;
+		position: fixed;
+		left: 28vw;
+		top: 4vh;
 	}
 }
 @media only screen and (min-width: 450px) and (max-width: 500px){
 	.book_btn {
 		position: relative;
-		top: 1vh;
+		top: -6vh;
 		right: -9vw;
 	}
 	.logo-img {
-			margin: -5vh 19vw;
+		position: fixed;
 	}
 }
 @media only screen and (min-width: 500px) and (max-width: 650px){
 	.logo-img {
-		margin: -3rem 13rem;
+		position: fixed;
+		right: 50vw;
+		top: 5vh;
+	}
+	.book_btn {
+		position: relative;
+		top: -5vh;
 	}
 }
+@media only screen and (min-width: 760px) and (max-width: 768px){
+	.book_btn {
+    	position: relative;
+    	right: -7vw;
+	}
+}
+
+
 @media (width:760px){
 	.book_btn {
-		margin: -2vh 0px 5px -142px !important;
+		margin: 3vh 5px 5px -142px !important;
 	}
 }
 @media only screen and (min-width: 760px) and (max-width: 2000px) {
